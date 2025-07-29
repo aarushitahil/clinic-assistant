@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return "Flask server is running!"
+    return "OK", 200
 
 
 def find_target_date(day):    #find upcoming date for any day eg. date for next saturday
